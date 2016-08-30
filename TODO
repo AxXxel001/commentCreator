@@ -1,0 +1,22 @@
+TODO
+- refactor old code and integrate as much as possible
+- write mustache templates
+- style must exactly match facebook!
+- rethink usability (command line)
+
+HOW TO USE
+
+cc2 will always try to create a directory to write all generated files. We refer to this directory
+as ComDir (Comment Directory). The ComDir will always contain the following data:
+	- output.html		The actual HTML output which will display the generated facebook comment in a browser
+	- data/				cc2 copies all needed files (such as images and styles) in this directory
+		- data/image/	All used images. Note: The image "kundendienst.png" will always be in this directory
+		- data/site/	All images used in the comment template are stored in this directory
+
+-c		Create				Create a ComDir
+-ca		Create all			Create multiple comdirs from a base directory
+-i 		Input				Set input type (default: json)
+							Possible input types:
+								- json
+								- txt
+-debug	Debug information	Prints more debug information

@@ -1,0 +1,124 @@
+{
+	"persons": [
+		{
+			"id": "_kundendienst",
+			"data": {
+				"first_name": "Kundendienst",
+				"last_name": "",
+				"image": null
+			}
+		},
+
+		{
+			"id": "_unternehmen",
+			"data": {
+				"first_name": "Unternehmen",
+				"last_name": "",
+				"image": null
+			}
+		},
+
+		{
+			"id": "_kunde",
+			"data": {
+				"first_name": "Max",
+				"last_name": "Mustermann",
+				"image": null
+			}
+		}
+
+
+
+	],
+
+	"author": "_kunde",
+	"to": "_unternehmen",
+	"text": "Hallo, dies ist eine Testbeschwerde!",
+
+	"comments": [
+		{
+		"author": "_kundendienst",
+		"text": "Guten Tag,
+dies ist eine Testantwort",
+		"likes": 0,
+		"answers": [
+			{
+				"author": "_kunde",
+				"text": "Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
+Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text",
+				"likes": 0
+			},
+{
+				"author": "_kundendienst",
+				"text": "Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
+Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text",
+				"likes": 0
+			},
+{
+				"author": "_kunde",
+				"text": "Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
+Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text",
+				"likes": 0
+			},
+{
+				"author": "_kundendienst",
+				"text": "Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
+Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text",
+				"likes": 0
+			},
+{
+				"author": "_kunde",
+				"text": "Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
+Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text",
+				"likes": 0
+			},
+{
+				"author": "_kundendienst",
+				"text": "Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
+Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text",
+				"likes": 0
+			},
+{
+				"author": "_kunde",
+				"text": "Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
+Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text",
+				"likes": 0
+			},
+{
+				"author": "_kundendienst",
+				"text": "Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
+Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text",
+				"likes": 0
+			},
+{
+				"author": "_kunde",
+				"text": "Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
+Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text",
+				"likes": 0
+			},
+{
+				"author": "_kundendienst",
+				"text": "Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
+Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text",
+				"likes": 0
+			},
+{
+				"author": "_kunde",
+				"text": "Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
+Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text",
+				"likes": 0
+			},
+{
+				"author": "_kundendienst",
+				"text": "Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
+Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text",
+				"likes": 0
+			}
+		]
+		}
+	],
+
+	"likes":0,
+	"shares":0,
+	"date":""
+}

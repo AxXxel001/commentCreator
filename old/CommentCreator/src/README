@@ -1,0 +1,21 @@
+README
+
+1. Terminal öffnen
+2. cc.py mit Python ausführen
+3. Usage: python cc.py -hct [source] [destionation]
+
+	-h 		Hilfetext (keine Parameter benötigt)
+
+	-c 		Erstellt einen neuen HTML post auf Basis der in source angegebenen
+			JSON Datei und kopiert alle benötigten Dateien ins (evtl. neu erzeugte)
+			Verzeichnis destination. (beide Parameter benötigt)
+
+	-t 		Testet, ob die in source angegebene JSON Datei korrekt formatiert ist
+			(nur der source Parameter)
+
+Im Hauptverzeichnis liegt eine Datei testcomment.json mit der kannst du das Programm testen
+
+WICHTIG!!! Im Hauptverzeichnis gibt es einen Ordner "base". Dadrin liegt die css Datei.
+Die wird immer mit kopiert, wenn du einen Post erstellst, also pass auf welche Datei du bearbeitest.
+Am besten bearbeitest du nur die ursprüngliche Datei aus dem base Ordner, erstellst den Post dann
+neu und schaust dir das Ergebnis im Browser an

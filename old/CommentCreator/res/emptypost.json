@@ -1,0 +1,47 @@
+{
+    "post": {
+        "to": "_steve",
+        "text": "Hi Steve, how are you?!",
+        "author": "_john",
+        "shares": 4,
+        "persons": [
+            {
+                "data": {
+                    "first_name": "John",
+                    "last_name": "Doe",
+                    "image": null
+                },
+                "id": "_john"
+            },
+            {
+                "data": {
+                    "first_name": "Steve",
+                    "last_name": "Miller",
+                    "image": null
+                },
+                "id": "_steve"
+            }
+        ],
+        "meta": {
+            "made_by": ""
+        },
+        "likes": 10,
+        "date": "9/11 2001",
+        "comments": [
+            {
+                "text": "Hey John, I'm glad to hear from you! How is Lisa?",
+                "likes": 1,
+                "answers": [
+                    {
+                        "text": "Oh, she's fine! :-) See you soon",
+                        "likes": 2,
+                        "author": "_john"
+                    }
+                ],
+                "author": "_steve"
+            }
+        ]
+    },
+    "html": "<html>\n\t<head>\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"file:///Users/alex/Google Drive/Kundendienst_2016/Alle Posts/CommentCreator/base/commentcreator.css\">\n\t</head>\n\t<body>\n\t\t<div class=\"post\">\n\t\t\t<div class=\"header\">\n\t\t\t\t<span class=\"imagecontainer\"><img class=\"header_image_hidden\" src=\"file:///Users/alex/Google Drive/Kundendienst_2016/Alle Posts/CommentCreator/base/people/person_13.png\"/></span>\n\t\t\t\t<div class=\"header_from\">\n\t\t\t\t\tJohn Doe\n\t\t\t\t</div>\n\t\t\t\t<img class=\"header_from_to_image\" src=\"file:///Users/alex/Google Drive/Kundendienst_2016/Alle Posts/CommentCreator/base/arrow.png\">\n\t\t\t\t<div class=\"header_to\">\n\t\t\t\t\tSteve Miller\n\t\t\t\t</div>\n\t\t\t\t<div class=\"header_time\">\n\t\t\t\t\t9/11 2001\n\t\t\t\t</div>\n\t\t\t\t<div class=\"header_text\">\n\t\t\t\t\tHi Steve, how are you?!\n\t\t\t\t</div>\n\t\t\t\t<div class=\"header_likes\">\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t <div class=\"header_like_box\"><img class=\"big_likebox_img\" src=\"./base/like.png\"/> <span style=\"padding-bottom: 5px;\">Gef&auml;llt mir</span> </div>\n\n\t\t<div class=\"commentsection\">\n\t\t\t<div class=\"comment\">\n\t\t\t\t<span class=\"imagecontainer\">\n\t\t\t\t\t<img class=\"comment_image_hidden\" src=\"file:///Users/alex/Google Drive/Kundendienst_2016/Alle Posts/CommentCreator/base/people/person_3.png\">\n\t\t\t\t</span>\n\t\t\t\t<div class=\"comment_text\">\n\t\t\t\t\t<span class=\"comment_from\">\n\t\t\t\t\t\tSteve Miller\n\t\t\t\t\t</span>\n\t\t\t\t\tHey John, I'm glad to hear from you! How is Lisa?\n\t\t\t\t</div>\n\t\t\t\t <div class=\"like_box\">Gef&auml;llt mir <span style=\"display:inline-block; width: 6px;\"></span> Antworten\n<span style=\"display:inline-block; width: 6px;\"></span> Nachricht senden</div>\n\n\t\t\t\t<!--<div class=\"comment_likes\">\n\t\t\t\t\t1-1\n\t\t\t\t</div>-->\n\t\t\t</div>\n\n\t\t\t\t<div class=\"answer\">\n\t\t\t\t\t<span class=\"imagecontainer\">\n\t\t\t\t\t\t<img class=\"answer_image_hidden\" src=\"file:///Users/alex/Google Drive/Kundendienst_2016/Alle Posts/CommentCreator/base/people/person_13.png\">\n\t\t\t\t\t</span>\n\t\t\t\t\t<div class=\"answer_text\">\n\t\t\t\t\t\t<span class=\"answer_from\">\n\t\t\t\t\t\t\tJohn Doe\n\t\t\t\t\t\t</span>\n\t\t\t\t\t\tOh, she's fine! :-) See you soon\n\t\t\t\t\t</div>\n\t\t\t\t\t <div class=\"like_box\">Gef&auml;llt mir <span style=\"display:inline-block; width: 6px;\"></span> Antworten\n<span style=\"display:inline-block; width: 6px;\"></span> Nachricht senden</div>\n\n\t\t\t\t\t<!--<div class=\"likes\">\n\t\t\t\t\t\t2\n\t\t\t\t\t</div>-->\n\t\t\t\t</div>\n\n\t\t</div>\n\t\t</div>\n\t</body>\n</html>",
+    "name": ""
+}

@@ -1,0 +1,17 @@
+<div class="cc-comment-wrapper">
+	<div class="cc-comment-image-wrapper"> <!-- FLOAT RIGHT -->
+		<img class="cc-comment-image" src="" alt="Profilbild" />
+	</div>
+	<div class="cc-comment">
+		<div class="cc-comment-content">
+			<span class="cc-comment-content-name">{{first_name}} {{last_name}}</span>
+			<span class="cc-comment-content-text">{{content}}</span>
+		</div>
+		{{> cc-like-bar}}
+		<div class="cc-answer-section">
+			{{# answers}}
+				{{> cc-answer}}
+			{{/ answers}}
+		</div>
+	</div>
+</div>

@@ -1,18 +1,16 @@
 <html>
 	<head>
+		<meta charset="utf-8"/>
 		<link rel="stylesheet" type="text/css" href="{{css_path}}" />
 	</head>
 	<body>
 		<div class="cc-post">
 			{{> cc-post-header}}
-			{{# comments}}
-				{{> cc-comment}}
-				{{> cc-like-bar}}
-				{{# answers}}
-					{{> answer}}
-					{{cc-like-bar}}
-				{{/ answers}}
-			{{/ comments}}
+			<div class="cc-comment-section">
+				{{# comments}}
+					{{> cc-comment}}
+				{{/ comments}}
+			</div>
 		</div>
 	</body>
 </html>

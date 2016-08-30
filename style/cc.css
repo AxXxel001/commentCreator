@@ -1,0 +1,179 @@
+/* __________GLOBAL SETTINGS__________ */
+
+body {
+	font: 12px Helvetica;
+}
+
+
+/* __________CURRENT TEST SETTINGS__________ */
+
+
+
+/* __________CC POST TEMPLATE__________ */
+
+
+.cc-post {
+	background-color: aquamarine;
+	width: 50%;
+	margin: 0 auto;
+	padding: 10;
+	border-radius: 4px;
+}
+
+
+/* __________CC HEADER TEMPLATE__________ */
+
+
+/*		__________NAME AND IMAGE*/
+
+.cc-header-name-wrapper {
+	background-color: cornflowerblue;
+}
+
+.cc-post-picture {
+	width: 48px;
+	height:48px;
+}
+
+.cc-header-name-wrapper:after {
+	clear: both;
+	content: " ";
+	display: block;
+}
+
+.cc-header-name-image-wrapper {
+	float: left;
+}
+
+.cc-header-name-firstline {
+	float: left;
+}
+
+.cc-header-name-customer {
+	vertical-align: top;
+}
+
+.cc-header-name-company {
+	vertical-align: top;
+}
+
+
+/*		__________CONTENT*/
+/**/
+
+
+/*		__________LIKE BAR*/
+
+.cc-header-like-bar-big-image {
+	width: 16px;
+	height:16px;
+}
+
+.cc-header-like-bar-big {
+	background-color: darkseagreen;
+}
+
+.cc-header-like-bar-big:after {
+	clear: both;
+	content: " ";
+	display: block;
+}
+
+.cc-header-like-bar-big-button {
+	float: left;
+}
+
+.cc-header-like-bar-big-dropdown {
+	float: right;
+}
+
+.cc-header-content {
+	background-color: thistle;
+}
+
+
+/* __________CC COMMENT TEMPLATE__________ */
+
+
+.cc-comment-image {
+	width: 32px;
+	height:32px;
+}
+
+.cc-comment-section {
+	background-color: burlywood;
+	padding: 8px;
+}
+
+.cc-comment-wrapper {
+	background-color: gray;
+	padding: 3px;
+}
+
+.cc-comment-wrapper:after{
+	display: block;
+	content: " ";
+	clear: both;
+}
+
+.cc-comment-image-wrapper {
+	float: left;
+}
+
+.cc-comment {
+	float: left;
+}
+
+.cc-comment-content {
+	min-height: 32px;
+}
+
+
+/* __________CC ANSWER TEMPLATE__________ */
+
+
+.cc-answer-image {
+	width: 24px;
+	height:24px;
+}
+
+.cc-answer-section {
+	background-color: burlywood;
+	padding: 8px;
+}
+
+.cc-answer-wrapper {
+	background-color: aliceblue;
+	padding: 3px;
+}
+
+.cc-answer-wrapper:after{
+	display: block;
+	content: " ";
+	clear: both;
+}
+
+.cc-answer-image-wrapper {
+	float: left;
+}
+
+.cc-answer {
+	float: left;
+}
+
+.cc-answer-content {
+	min-height: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

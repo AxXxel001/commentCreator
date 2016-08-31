@@ -60,6 +60,18 @@ das können wir so nicht bestätigen!""",
 	]
 }
 
+def encodeNewLines(string):
+	return "<br />".join(string.split("\n"))
+
+def encodeNewLinesFromData(data):
+	data["content"] = encodeNewLines(data["content"])
+	for comment in data["comments"]:
+		comment["content"] = encodeNewLines(comment["content"])
+		for answer in comment["answers"]:
+			answer["content"] = encodeNewLines(answer["content"])
+
+encodeNewLinesFromData(data)
+
 html = renderer.render_name('facebook_template', data)
 f = open("output.html", "w")
 f.write(html.encode("UTF-8"))

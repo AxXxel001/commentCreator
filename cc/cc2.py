@@ -24,11 +24,11 @@ data = {
 	"css_path": u"../style/cc.css",
 	"first_name": u"Alexander",
 	"last_name": u"Schäfer",
-	"company_name": u"Heinrich Heine Consulting e.V.",
-	"content": u"""Ich finde euch scheiße!! :-(
-Füher wäre alles größer und besser gewesen!
+	"company_name": u"HHC Düsseldorf",
+	"content": u"""Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 
-Euer Alex.""",
+At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.""",
 	"comments": [
 		{
 			"first_name": u"Kundendienst",
@@ -40,7 +40,20 @@ das können wir so nicht bestätigen!""",
 				{
 					"first_name": u"Alexander",
 					"last_name": u"Schäfer",
-					"content": u"""Fieß!"""
+					"content": u"""Antwort1!"""
+				},
+				{
+					"first_name": u"Alexander",
+					"last_name": u"Schäfer",
+					"content": u"""Antwort 2
+
+
+Geht auch hier noch weiter :-)"""
+				},
+				{
+					"first_name": u"Alexander",
+					"last_name": u"Schäfer",
+					"content": u"""Antwort    3"""
 				}
 			]
 		},

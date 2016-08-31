@@ -20,6 +20,7 @@ renderer = pystache.Renderer(
 )
 
 data = {
+	"res_path": u"../res",
 	"css_path": u"../style/cc.css",
 	"first_name": u"Alexander",
 	"last_name": u"Schäfer",

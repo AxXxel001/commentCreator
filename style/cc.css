@@ -86,7 +86,13 @@ body {
 
 .cc-header-like-bar-big-image {
 	width: 14px;
-	height:14px;
+	height: 14px;
+}
+
+.cc-header-like-bar-big-image-dropdown {
+	width: 9px;
+	height: 9px;
+	margin-top: 2px;
 }
 
 .cc-header-like-bar-big {
@@ -125,6 +131,17 @@ body {
     float: right;
     margin-top: 1px;
     margin-left: 3px;
+}
+
+.cc-header-like-bar-big-dropdown-label {
+    color: #7f7f7f;
+    font-size: 12px;
+    line-height: 12px;
+    vertical-align: middle;
+    display: block;
+    float: left;
+    margin-top: 1px;
+    margin-right: 3px;
 }
 
 .cc-header-like-bar-big-dropdown {

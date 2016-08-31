@@ -1,7 +1,9 @@
 /* __________GLOBAL SETTINGS__________ */
 
 body {
-	font: 12px Helvetica;
+	font: 14px Helvetica;
+	color: #1d2129;
+	background-color: #ededed;
 }
 
 
@@ -11,28 +13,32 @@ body {
 
 /* __________CC POST TEMPLATE__________ */
 
-
 .cc-post {
-	background-color: aquamarine;
+	background-color: white;
 	width: 50%;
 	margin: 0 auto;
-	padding: 10;
-	border-radius: 4px;
+	border-radius: 3px;
+	border: 1px solid #d4d4d4;
 }
 
 
 /* __________CC HEADER TEMPLATE__________ */
 
+.cc-header {
+	margin-top: 12px;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
 
 /*		__________NAME AND IMAGE*/
 
 .cc-header-name-wrapper {
-	background-color: cornflowerblue;
 }
 
 .cc-post-picture {
-	width: 48px;
-	height:48px;
+	width: 40px;
+	height:40px;
 }
 
 .cc-header-name-wrapper:after {
@@ -47,10 +53,21 @@ body {
 
 .cc-header-name-firstline {
 	float: left;
+	margin-left: 5px;
 }
 
-.cc-header-name-customer {
+.cc-header-arrow {
+	width: 8px;
+	height: 9px;
+	margin-top: 3px;
+}
+
+.cc-header-name-customer, .cc-header-name-company{
 	vertical-align: top;
+	color: #365899;
+	font-size: 16px;
+	font-weight: bold;
+	font-style: 
 }
 
 .cc-header-name-company {
@@ -59,18 +76,26 @@ body {
 
 
 /*		__________CONTENT*/
-/**/
+
+.cc-header-content {
+	margin-top: 11px;
+}
 
 
 /*		__________LIKE BAR*/
 
 .cc-header-like-bar-big-image {
-	width: 16px;
-	height:16px;
+	width: 14px;
+	height:14px;
 }
 
 .cc-header-like-bar-big {
-	background-color: darkseagreen;
+	margin-top: 15px;
+	padding-top: 6px;
+	padding-bottom: 5px;
+	border-top: 1px solid #d4d4d4;
+	padding-left: 3px;
+	padding-right: 3px;
 }
 
 .cc-header-like-bar-big:after {
@@ -80,20 +105,34 @@ body {
 }
 
 .cc-header-like-bar-big-button {
+	margin-right: 20px;
 	float: left;
+}
+
+.cc-header-like-bar-big-button:after {
+	clear: both;
+	display: block;
+	content: " ";
+}
+
+.cc-header-like-bar-big-button-label {
+    color: #7f7f7f;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 14px;
+    vertical-align: middle;
+    display: block;
+    float: right;
+    margin-top: 1px;
+    margin-left: 3px;
 }
 
 .cc-header-like-bar-big-dropdown {
 	float: right;
 }
 
-.cc-header-content {
-	background-color: thistle;
-}
-
 
 /* __________CC COMMENT TEMPLATE__________ */
-
 
 .cc-comment-image {
 	width: 32px;
@@ -101,7 +140,8 @@ body {
 }
 
 .cc-comment-section {
-	background-color: burlywood;
+	background-color: #f6f7f9;
+	border-top: 1px solid #d4d4d4;
 	padding: 8px;
 }
 
@@ -126,25 +166,29 @@ body {
 
 .cc-comment-content {
 	min-height: 32px;
+	margin-left: 8px;
+}
+
+.cc-comment-like-bar {
+	margin-left: 8px;
 }
 
 
 /* __________CC ANSWER TEMPLATE__________ */
 
-
 .cc-answer-image {
-	width: 24px;
-	height:24px;
+	width: 20px;
+	height:20px;
 }
 
 .cc-answer-section {
-	background-color: burlywood;
-	padding: 8px;
+	background-color: tomato;
+	padding: 6px;
+	border-left: 2px solid;
 }
 
 .cc-answer-wrapper {
 	background-color: aliceblue;
-	padding: 3px;
 }
 
 .cc-answer-wrapper:after{

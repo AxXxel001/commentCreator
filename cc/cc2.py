@@ -140,7 +140,7 @@ def encodeNewLinesFromData(data):
 
 encodeNewLinesFromData(data)
 
-html = renderer.render_name('facebook_template', data)
+html = renderer.render_name('cc-post', data)
 f = open("output.html", "w")
 f.write(html.encode("UTF-8"))
 f.close()

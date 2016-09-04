@@ -1,10 +1,10 @@
 <div class="cc-header">
 	<div class="cc-header-name-wrapper"> <!-- BRAUCHT NEN CLEARFIX -->
 		<div class="cc-header-name-image-wrapper"> <!-- FLOAT RIGHT -->
-			<img class="cc-post-picture" src="{{res_path}}/profile/dummy.png" alt="Profilbild" />
+			<img class="cc-post-picture" src="{{res_path}}/profile/{{image}}.png" alt="Profilbild" />
 		</div>
 		<div class="cc-header-name-firstline">
-			<span class="cc-header-name-customer">{{first_name}} {{last_name}}</span>
+			<span class="cc-header-name-customer">{{first_name}} <span class="blur-wrapper"><span class="blur">{{last_name}}</span></span></span>
 			<img class="cc-header-arrow" src="{{res_path}}/icon_arrow.png" alt="icon_arrow"/>
 			<span class="cc-header-name-company">{{company_name}}</span>
 		</div>

@@ -57,9 +57,11 @@ body {
 }
 
 .cc-header-arrow {
-	width: 8px;
+	width: 7px;
 	height: 9px;
-	margin-top: 3px;
+	opacity: 0.7;
+	margin: 0px 4px;
+    margin-bottom: 4px;
 }
 
 .cc-header-name-customer, .cc-header-name-company{
@@ -134,7 +136,7 @@ body {
 }
 
 .cc-header-like-bar-big-dropdown-label {
-    color: #7f7f7f;
+    color: #365899;
     font-size: 12px;
     line-height: 12px;
     vertical-align: middle;

@@ -1,6 +1,12 @@
 <div class="cc-comment-wrapper">
 	<div class="cc-comment-image-wrapper"> <!-- FLOAT RIGHT -->
+		{{# blur_image}}
+		<div class="blur-wrapper"><span class="blur">
+		{{/ blur_image}}
 		<img class="cc-comment-image" src="{{res_path}}/profile/{{image}}.png" alt="Profilbild" />
+		{{# blur_image}}
+		</span></div>
+		{{/ blur_image}}
 	</div>
 	<div class="cc-comment">
 		<div class="cc-comment-content">

@@ -22,42 +22,42 @@ renderer = pystache.Renderer(
 data = {
 	"res_path": u"../res",
 	"css_path": u"../style/cc.css",
+	"output_path": u"../output",
 	"first_name": u"Alexander",
-	"last_name": u"Schäfer123123123123",
+	"last_name": u"Schäfer123123",
 	"image": u"dummy",
+	"blur_image": True,
 	"company_name": u"HHC Düsseldorf",
-	"content": u"""Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-
-At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.""",
+	"content": u"""!"§$%&/()=?*'ÄPÖ_:;:_Ä'*`?=)(/&%$§"¶¢[]{}≠¿•æœø∆∞µ~∫ƒ∂®†Ω""",
 	"comments": [
 		{
 			"first_name": u"Kundendienst",
 			"last_name": u"",
 			"image": u"dummy",
+			"blur_image": False,
 			"content": u"""Guten Tag,
 
 das können wir so nicht bestätigen!""",
 			"answers": [
 				{
 					"first_name": u"Alexander",
-					"last_name": u"Schäfer123123123123",
+					"last_name": u"Schäfer1231",
 					"image": u"dummy",
-					"content": u"""Antwort1!<img src="{{res_path}}/profile/dummy.png />" """
+					"blur_image": True,
+					"content": u"""Antwort1!"""
+				},
+				{
+					"first_name": u"Kundendienst",
+					"image": u"dummy",
+					"blur_image": False,
+					"last_name": u"Schäfer",
+					"content": u"""Antwort 2 Geht auch hier noch weiter :-)"""
 				},
 				{
 					"first_name": u"Alexander",
-					"image": u"dummy",
-					"last_name": u"Schäfer",
-					"content": u"""Antwort 2
-
-
-Geht auch hier noch weiter :-)"""
-				},
-				{
-					"first_name": u"Alexander",
 					"last_name": u"Schäfer",
 					"image": u"dummy",
+					"blur_image": True,
 					"content": u"""Antwort    3"""
 				}
 			]
@@ -66,65 +66,20 @@ Geht auch hier noch weiter :-)"""
 			"first_name": u"Peter",
 			"last_name": u"Maffay",
 			"image": u"dummy",
+			"blur_image": True,
 			"content": u"Fake!",
 			"answers": [
 				{
 					"first_name": u"Alexander",
 					"last_name": u"Schäfer",
 					"image": u"dummy",
+					"blur_image": False,
 					"content": u"""Fieß!"""
 				}
 			]
 		}
 	]
 }
-
-# data = {
-# 	"res_path": u"../res",
-# 	"css_path": u"../style/cc.css",
-# 	"first_name": u"0",
-# 	"last_name": u"1",
-# 	"company_name": u"2",
-# 	"content": u"""1""",
-# 	"comments": [
-# 		{
-# 			"first_name": u"1",
-# 			"last_name": u"",
-# 			"content": u"""x""",
-# 			"answers": [
-# 				{
-# 					"first_name": u"x",
-# 					"last_name": u"y",
-# 					"content": u"""yz"""
-# 				},
-# 				{
-# 					"first_name": u"v",
-# 					"last_name": u"r",
-# 					"content": u""":-)"""
-# 				},
-# 				{
-# 					"first_name": u"Alexander",
-# 					"last_name": u"Schäfer",
-# 					"content": u"""Antwort    3"""
-# 				}
-# 			]
-# 		},
-# 		{
-# 			"first_name": u"Kundendienst",
-# 			"last_name": u"",
-# 			"content": u"""Guten Tag,
-
-# das können wir so nicht bestätigen!""",
-# 			"answers": [
-# 				{
-# 					"first_name": u"Alexander",
-# 					"last_name": u"Schäfer",
-# 					"content": u"""Fieß!"""
-# 				}
-# 			]
-# 		}
-# 	]
-# }
 
 def encodeNewLines(string):
 	return "<br />".join(string.split("\n"))
@@ -139,6 +94,6 @@ def encodeNewLinesFromData(data):
 encodeNewLinesFromData(data)
 
 html = renderer.render_name('cc-post', data)
-f = open("output.html", "w")
+f = open(OS_join(data["output_path"], "output.html"), "w")
 f.write(html.encode("UTF-8"))
 f.close()

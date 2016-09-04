@@ -13,7 +13,7 @@ body {
 
 .blur {
 	-webkit-filter: blur(10px);
-    filter: blur(10px);
+	filter: blur(10px);
 }
 
 
@@ -71,7 +71,7 @@ body {
 	height: 9px;
 	opacity: 0.7;
 	margin: 0px 4px;
-    margin-bottom: 4px;
+	margin-bottom: 4px;
 }
 
 .cc-header-name-customer, .cc-header-name-company{
@@ -134,26 +134,26 @@ body {
 }
 
 .cc-header-like-bar-big-button-label {
-    color: #7f7f7f;
-    font-size: 12px;
-    font-weight: bold;
-    line-height: 14px;
-    vertical-align: middle;
-    display: block;
-    float: right;
-    margin-top: 1px;
-    margin-left: 3px;
+	color: #7f7f7f;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 14px;
+	vertical-align: middle;
+	display: block;
+	float: right;
+	margin-top: 1px;
+	margin-left: 3px;
 }
 
 .cc-header-like-bar-big-dropdown-label {
-    color: #365899;
-    font-size: 12px;
-    line-height: 12px;
-    vertical-align: middle;
-    display: block;
-    float: left;
-    margin-top: 1px;
-    margin-right: 3px;
+	color: #365899;
+	font-size: 12px;
+	line-height: 12px;
+	vertical-align: middle;
+	display: block;
+	float: left;
+	margin-top: 1px;
+	margin-right: 3px;
 }
 
 .cc-header-like-bar-big-dropdown {
@@ -175,7 +175,7 @@ body {
 }
 
 .cc-comment-wrapper {
-	background-color: gray;
+	margin: 3px 0px;
 	padding: 3px;
 }
 
@@ -190,6 +190,7 @@ body {
 }
 
 .cc-comment {
+	width:90%;
 	float: left;
 }
 
@@ -198,8 +199,23 @@ body {
 	margin-left: 8px;
 }
 
+.cc-comment-content-name {
+	color: #365899;
+	font-weight: bold;
+	font-size: 15px;
+}
+
 .cc-comment-like-bar {
+	color: #365899;
 	margin-left: 8px;
+	padding: 4px 0px;
+}
+
+.cc-comment-like-bar-bullet {
+	padding-top: 2px;
+	color: lightgray;
+	position: relative;
+	top: 1px;
 }
 
 
@@ -211,13 +227,10 @@ body {
 }
 
 .cc-answer-section {
-	background-color: tomato;
-	padding: 6px;
-	border-left: 2px solid;
-}
-
-.cc-answer-wrapper {
-	background-color: aliceblue;
+	width: 100%;
+	padding-left: 8px;
+	border-left: 2px solid lightgray;
+	margin-top: 6px;
 }
 
 .cc-answer-wrapper:after{
@@ -227,6 +240,7 @@ body {
 }
 
 .cc-answer-image-wrapper {
+	margin-right: 5px;
 	float: left;
 }
 
@@ -238,10 +252,23 @@ body {
 	min-height: 24px;
 }
 
+.cc-comment-answer-name {
+	color: #365899;
+	font-weight: bold;
+	font-size: 14px;
+	vertical-align: top;
+}
 
+.cc-comment-answer-text {
+	vertical-align: top;
+}
 
-
-
+.cc-answer-like-bar {
+	color: #365899;
+	margin-left: 4px;
+	margin-bottom: 4px;
+	margin-top: 2px;
+}
 
 
 

@@ -63,12 +63,10 @@ Geht auch hier noch weiter :-)"""
 			]
 		},
 		{
-			"first_name": u"Kundendienst",
-			"last_name": u"",
+			"first_name": u"Peter",
+			"last_name": u"Maffay",
 			"image": u"dummy",
-			"content": u"""Guten Tag,
-
-das können wir so nicht bestätigen!""",
+			"content": u"Fake!",
 			"answers": [
 				{
 					"first_name": u"Alexander",

@@ -6,6 +6,16 @@ body {
 	background-color: #ededed;
 }
 
+.blur-wrapper {
+	display: inline-block;
+	overflow: hidden;
+}
+
+.blur {
+	-webkit-filter: blur(10px);
+    filter: blur(10px);
+}
+
 
 /* __________CURRENT TEST SETTINGS__________ */
 

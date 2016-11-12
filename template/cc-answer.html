@@ -3,14 +3,22 @@
 		{{# blur_image}}
 		<div class="blur-wrapper"><span class="blur">
 		{{/ blur_image}}
-		<img class="cc-answer-image" src="{{res_path}}/profile/{{image}}.png" alt="Profilbild" />
+		<img class="cc-answer-image" src="{{res_path}}/profile/{{image}}" alt="Profilbild" />
 		{{# blur_image}}
 		</span></div>
 		{{/ blur_image}}
 	</div>
 	<div class="cc-answer">
 		<div class="cc-answer-content">
-			<span class="cc-comment-answer-name">{{first_name}} <span class="blur-wrapper"><span class="blur">{{last_name}}</span></span></span>
+			<span class="cc-comment-answer-name">{{first_name}}
+			{{# blur_last_name}}
+			<span class="blur-wrapper"><span class="blur">
+			{{/ blur_last_name}}
+			{{last_name}}
+			{{# blur_last_name}}
+			</span></span>
+			{{/ blur_last_name}}
+			</span>
 			<span class="cc-comment-answer-text">{{{content}}}</span>
 		</div>
 		<div class="cc-answer-like-bar">Gefällt mir <span class="cc-comment-like-bar-bullet">&bull;</span> Antworten</div>

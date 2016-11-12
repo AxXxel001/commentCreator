@@ -1,0 +1,41 @@
+{
+	"res_path": "../res",
+	"css_path": "../style/cc.css",
+	"output_path": "../output",
+	"first_name": "Oliver",
+	"last_name": "Broszat",
+	"image": "custom/hhc/oli.jpg",
+	"blur_image": false,
+	"blur_last_name": false,
+	"company_name": "Heinrich Heine Consulting e.V.",
+	"content": "Hier dicke fette Penisbilder!! Lecker! http://tinyurl.com/a405c0f",
+	"comments": [
+		{
+			"first_name": "Priscilla",
+			"last_name": "Luu",
+			"image": "custom/hhc/priscilla.jpg",
+			"blur_image": false,
+			"blur_last_name": false,
+			"content": "???! Kann das mal jemand raus nehmen?",
+			"answers": []
+		},
+		{
+			"first_name": "Anna",
+			"last_name": "Rhönisch",
+			"image": "custom/hhc/anna.jpg",
+			"blur_image": false,
+			"blur_last_name": false,
+			"content": "Was soll denn so ein scheiß oli??<br><br>Nimm mal bitte einer raus!! Mega peinlich",
+			"answers": [
+				{
+					"first_name": "Marius",
+					"last_name": "Comedor",
+					"image": "custom/hhc/marius.jpg",
+					"blur_image": false,
+					"blur_last_name": false,
+					"content": "Haha der ist doch betrunken :D:D"
+				}
+			]
+		}
+	]
+}

@@ -25,7 +25,7 @@ body {
 
 .cc-post {
 	background-color: white;
-	width: 50%;
+	width: 80%;
 	margin: 0 auto;
 	border-radius: 3px;
 	border: 1px solid #d4d4d4;
@@ -70,8 +70,7 @@ body {
 	width: 7px;
 	height: 9px;
 	opacity: 0.7;
-	margin: 0px 4px;
-	margin-bottom: 4px;
+	margin: 5px;
 }
 
 .cc-header-name-customer, .cc-header-name-company{
@@ -79,7 +78,6 @@ body {
 	color: #365899;
 	font-size: 16px;
 	font-weight: bold;
-	font-style: 
 }
 
 .cc-header-name-company {
@@ -246,6 +244,7 @@ body {
 
 .cc-answer {
 	float: left;
+	width: 90%;
 }
 
 .cc-answer-content {

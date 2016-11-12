@@ -1,0 +1,57 @@
+{
+	"res_path": "../res",
+	"css_path": "../style/cc.css",
+	"output_path": "../output",
+	"first_name": "Madeleine",
+	"last_name": "Schäfer123123",
+	"image": "dummy",
+	"blur_image": true,
+	"company_name": "Telekom-hilft",
+	"content": "Ich warte seit gefühlt 1 Jahr auf eine Antwort!! Wann bekomme ich mein Geld zurück?",
+	"comments": [
+		{
+			"first_name": "Kundendienst",
+			"last_name": "",
+			"image": "kundendienst",
+			"blur_image": false,
+			"content": "Guten Tag,<br><br>wir sind wirklich zutiefst betrübt über diesen Vorfall. Auch wir hätten unseren Kunden im letzten Halbjahr gern weitergeholfen. Aber ist ja nicht schlimm, Sie werden unseren Kram ja trotzdem kaufen :) In diesem Sinne<br><br> Ich hoffe, ich konnte Ihnen weiterhelfen.",
+			"answers": [
+				{
+					"first_name": "Madeleine",
+					"last_name": "Schäfer1231",
+					"image": "dummy",
+					"blur_image": true,
+					"content": "Da die Konkurrenz heutzutage groß und der Kampf um den Kunden nie größer gewesen ist, sollten sie den ball vllt flach halten. Kündigen tut mir nicht halb so weh wie ihnen. da haben Sie mein Wort drauf"
+				},
+				{
+					"first_name": "Kundendienst",
+					"image": "kundendienst",
+					"blur_image": false,
+					"last_name": "Schäfer",
+					"content": "Guten Tag,<br><br>aber wir sind doch der einzig wahre Kundendienst in Deutschland! Wie könnten Sie uns da böse sein? :( Wir können Ihnen zum Trost eine 50€ Zusatzzahlung auf Ihren Vertrag anbieten.<br><br>Ich hoffe, ich konnte Ihnen weiterhelfen."
+				},
+				{
+					"first_name": "Madeleine",
+					"last_name": "Schäfer1231",
+					"image": "dummy",
+					"blur_image": true,
+					"content": "Gern dürfen sie mir meine kosten mit dem von ihnen hier genannten 50 eur zahlung verrechnen"
+				},
+                {
+                      "first_name": "Kundendienst",
+                      "image": "kundendienst",
+                      "blur_image": false,
+                      "last_name": "Schäfer",
+                      "content": "Guten Tag,<br><br>vielen Dank für Ihre Buchung. Ihre Zahlung für November 2016 beträgt auf Ihren Wunsch hin statt 29,99 nun 79,99. Bei Fragen wenden Sie sich gern an unseren Kundendienst.<br><br>Ich hoffe, ich konnte Ihnen weiterhelfen."
+                },
+                {
+                      "first_name": "Madeleine",
+                      "last_name": "Schäfer1231",
+                      "image": "dummy",
+                      "blur_image": true,
+                      "content": "HAHA sehr witzig. 'Gern' hören Sie bald von meinem Anwalt. Abzocke nach masstab."
+                }
+			]
+		}
+	]
+}

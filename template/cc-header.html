@@ -4,13 +4,21 @@
 			{{# blur_image}}
 			<div class="blur-wrapper"><span class="blur">
 			{{/ blur_image}}
-			<img class="cc-post-picture" src="{{res_path}}/profile/{{image}}.png" alt="Profilbild" />
+			<img class="cc-post-picture" src="{{res_path}}/profile/{{image}}" alt="Profilbild" />
 			{{# blur_image}}
 			</span></div>
 			{{/ blur_image}}
 		</div>
 		<div class="cc-header-name-firstline">
-			<span class="cc-header-name-customer">{{first_name}} <span class="blur-wrapper"><span class="blur">{{last_name}}</span></span></span>
+			<span class="cc-header-name-customer">{{first_name}}
+			{{# blur_last_name}}
+			<span class="blur-wrapper"><span class="blur">
+			{{/ blur_last_name}}
+			{{last_name}}
+			{{# blur_last_name}}
+			</span></span>
+			{{/ blur_last_name}}
+			</span>
 			<img class="cc-header-arrow" src="{{res_path}}/icon_arrow.png" alt="icon_arrow"/>
 			<span class="cc-header-name-company">{{company_name}}</span>
 		</div>

@@ -1,1 +1,4 @@
 cc/output.html
+.idea
+*.DS_store
+res/profile/custom/*

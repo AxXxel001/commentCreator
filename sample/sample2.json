@@ -1,0 +1,52 @@
+{
+	"res_path": "../res",
+	"css_path": "../style/cc.css",
+	"output_path": "../output",
+	"first_name": "Campus",
+	"last_name": "Schäfer1233",
+	"image": "person1.jpg",
+	"blur_image": true,
+	"blur_last_name": true,
+	"company_name": "Flughafen München",
+	"content": "Sehr geehrte Damen und Herren, eine bodenlose Frechheit finde ich dass ich heute bei der Kontrolle mein Samsung S7 angeben musste ich bin jetzt ohne Handy den ganzen Urlaub das ist das aller letzte von ihnen!!! An den Kunden denkt niemand",
+	"comments": [
+		{
+			"first_name": "Kundendienst",
+			"last_name": "",
+			"image": "kundendienst.png",
+			"blur_image": false,
+			"content": "Guten Tag,<br><br>gern bewahren wir Ihr Mobiltelefon in einem unserer zertifizierten, explosionsgeschützten Tresore auf. Dieser Service kostet Sie nur 53,95 EUR pro begonnene 24 Std.<br><br>Ich hoffe, ich konnte Ihnen weiterhelfen.",
+			"answers": [
+				{
+					"first_name": "Campus",
+					"last_name": "Schäfer1233",
+					"image": "person1.jpg",
+					"blur_image": true,
+					"blur_last_name": true,
+					"content": "Ich sage das in alleruhe und so freundlich wie ich kann. Sollte mein Konto jemals mit Geld von ihrer firma belastet sein wird das große rechtliche konsequenzen mit sich ziehen und eine marketingkampange wird es gegen ihren konzern geben von einer Wucht wie sie es niemehr erfahren werden"
+				},
+				{
+					"first_name": "Kundendienst",
+					"image": "kundendienst.png",
+					"blur_image": false,
+					"last_name": "",
+					"content": "Guten Tag,<br><br>bitte entschuldigen Sie vielmals! Ein solch grober Fehler hätte uns keinesfalls unterlaufen dürfen. Selbstverständlich haben wir alle aufkommenden Kosten für Sie annulliert. Da wir das Mobilgerät nicht weiter für Sie aufbewahren sollten, haben wir es an die örtliche Fundgrube gespendet.<br><br>Ich hoffe, ich konnte Ihnen weiterhelfen."
+				},
+				{
+					"first_name": "Campus",
+					"last_name": "Schäfer1233",
+					"image": "person1.jpg",
+					"blur_image": true,
+					"content": "WIE KÖNNT IHR DAS WAGEN!! dieses handy hat private informationen gespeichert, das ist verletzung von privatsphäre ihr könnt das doch nicht machen!! ich bin verletzt"
+				},
+				{
+					"first_name": "Kundendienst",
+					"image": "kundendienst.png",
+					"blur_image": false,
+					"last_name": "",
+					"content": "Guten Tag,<br><br>bei Fragen und Beschwerden, wenden Sie sich bitte an unseren Kundendienst.<br><br>Ich hoffe, ich konnte Ihnen weiterhelfen."
+				}
+			]
+		}
+	]
+}

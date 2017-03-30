@@ -1,0 +1,57 @@
+{
+	"res_path": "../res",
+	"css_path": "../style/cc.css",
+	"output_path": "../output",
+	"first_name": "Ute",
+	"last_name": "Utefrau",
+	"image": "person2.jpg",
+	"blur_image": true,
+	"blur_last_name": true,
+	"company_name": "EDEKA",
+	"content": "Hallo ich war heute in eurem laden und es war in dem prospekt kokusnüsse beworben. Ich wollte für einen cocktail Abend melonen und die nüsse kaufen aber die waren bereits alle ausverkauft. ich finde es sehr dumm die extra zu bewerben und dann den Vorrat nicht zu haben.<br><br>Ein verärgerter Kunde",
+	"comments": [
+		{
+			"first_name": "Kundendienst",
+			"last_name": "",
+			"image": "kundendienst.png",
+			"blur_image": false,
+			"blur_last_name": false,
+			"content": "Guten Tag,<br><br>wir möchten uns für diesen Vorfall entschuldigen. Natürlich arbeiten unsere professionellen Palmenwedler unter Hochdruck daran, mehr von den Nüssen runter zu holen. Allerdings gibt es regionale Probleme mit den Samen, so dass es aktuell überall zu Lieferproblemen kommt. Sie haben sicher Verständnis dafür. Ansonsten kaufen Sie sich doch einfach ein paar dickere Melonen.<br><br>Ich hoffe, ich konnte Ihnen weiterhelfen.",
+			"answers": []
+		},
+		{
+			"first_name": "Ute",
+			"last_name": "Utefrau",
+			"image": "person2.jpg",
+			"blur_image": true,
+			"blur_last_name": true,
+			"content": "Also ich weiß nicht so recht ob sie mein Problem verstanden haben.. Wo die Nüsse herkommen ist doch völlig egal aber hier im Laden sind keine also warum bewerben sie die auch noch? wenn sie doch wissen das es keine nüsse mehr gibt. Da wird nicht wie ein Geschäftsmann gedacht",
+			"answers": [
+				{
+					"first_name": "Kundendienst",
+					"last_name": "",
+					"image": "kundendienst.png",
+					"blur_image": false,
+					"blur_last_name": false,
+					"content": "Guten Tag,<br><br>leider ist erst vor kurzem ein neues Pestizid-Gesetz genehmigt worden. Darum müssen wir nun die Nüsse vor Auslieferung ordentlich abspritzen. Das ist natürlich mit Aufwand verbunden und kostet Geld. Kaufen Sie für Ihre Cocktails doch einfach Gin als Schnaps, dazu passen große lange Gurken.<br><br>Ich hoffe, ich konnte Ihnen weiterhelfen."
+				},
+				{
+					"first_name": "Ute",
+					"last_name": "Utefrau",
+					"image": "person2.jpg",
+					"blur_image": true,
+					"blur_last_name": true,
+					"content": "Gin schmeckt scheiße das weiß doch jeder. Offenbar will dem Kunden hier nicht geholfen werden. Schade. An Ihrer Stelle würde ich mir mal Gedanken machen ob diese dreisten Lügenangebote auf dauer das Geschäft fördern... "
+				},
+				{
+					"first_name": "Kundendienst",
+					"last_name": "",
+					"image": "kundendienst.png",
+					"blur_image": false,
+					"blur_last_name": false,
+					"content": "Guten Tag,<br><br>falls Sie sich entscheiden, auch ein Buffet zu stellen könnten Sie sich Ihr eigenes Süppchen kochen. Als Fingerfood könnten wir uns eine dicke Salami oder zwei große Eier vorstellen. Wir wünschen einen guten Appetit und viel Spaß beim Cocktailabend!<br><br>Ich hoffe, ich konnte Ihnen weiterhelfen."
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"res_path": "../res",
+	"css_path": "../style/cc.css",
+	"output_path": "../output",
+	"first_name": "Reiner",
+	"last_name": "Chris",
+	"image": "dummy.png",
+	"blur_image": true,
+	"blur_last_name": true,
+	"company_name": "Kundendienst",
+	"content": "Ihr seit doch alle tattowierte HuSos! Bestimmt reicht durch Zahngold geworden!!",
+	"comments": [
+		{
+			"first_name": "Kundendienst",
+			"last_name": "",
+			"image": "kundendienst.png",
+			"blur_image": false,
+			"content": "Guten Tag,<br><br>Ey du Bastard! Wir haben nie Zahngold geklaut sondern direkt die Leber oder so mitgenommen! Wird besser für gezahlt :)<br><br>Ich hoffe, ich konnte Ihnen weiterhelfen.",
+			"answers": [
+				{
+					"first_name": "Tattoofrei - Es ist schön keine Tattoos zu haben",
+					"last_name": "S",
+					"image": "custom/tattoofrei/logo.jpg",
+					"blur_image": false,
+					"blur_last_name": true,
+					"content": "Nene ich kenne euch persönlich ihr seid schon echt tattoowierte HuSos :D"
+				},
+				{
+					"first_name": "Kundendienst",
+					"image": "kundendienst.png",
+					"blur_image": false,
+					"last_name": "",
+					"content": "Guten Tag,<br><br>...fick dich!<br><br>Ich hoffe, ich konnte Ihnen weiterhelfen."
+				}
+			]
+		}
+	]
+}
